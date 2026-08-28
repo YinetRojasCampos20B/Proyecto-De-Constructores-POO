@@ -10,4 +10,9 @@ package constructorespoo;
  */
 public class Hospital extends Lugar {
     
+    // Atributos de la clase hija Hospital
+
+    private char nivelComplejidad;
+    private String especializacion;
+    private boolean tieneHelipuerto;
 }
