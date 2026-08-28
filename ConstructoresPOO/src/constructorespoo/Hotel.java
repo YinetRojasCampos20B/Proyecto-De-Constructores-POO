@@ -10,4 +10,9 @@ package constructorespoo;
  */
 public class Hotel extends Lugar {
     
+    // Atributos de la clase hija Hotel
+    
+    private String ponderacion;
+    private boolean tieneWifi;
+    
 }
