@@ -9,5 +9,10 @@ package constructorespoo;
  * @author rojas
  */
 public class Colegio extends Lugar {
+     // Atributos de la clase hija Colegio
+
+    private char calendario;
+    private String tipoColegio;
+    private boolean tieneConvenioSENA;
     
 }
