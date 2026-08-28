@@ -59,7 +59,22 @@ public class ConstructoresPOO {
         // Método #5
         Hospital hospitalG = new Hospital("Nazukasokotsune Healthcare", true);
         Hospital hospitalH = new Hospital("SENAgoga Hospital", false);
+        
+        /**
+         * OBJETOS DE LA CLASE HIJA COLEGIO
+         *
+         */
+        // Método #1
+        Colegio miColegioLegendario = new Colegio("Colegio Westernfall City", "Calle 13 #200-2", 5, 'B', "Privado", true);
+        Colegio colegioLina = new Colegio("Random Kristweil Duale Schule", "Carrera 2213 #200-2", 5, 'A', "Público", false);
 
+        // Método #2
+        Colegio colegioA = new Colegio("Carrera 200 #23-32", 4, 'A', false);
+        Colegio colegioB = new Colegio("Transversal 80 #221-23", 3, 'B', true);
+
+        // Método #3
+        Colegio colegioC = new Colegio(4, 'B', "Privado");
+        Colegio colegioD = new Colegio(3, 'A', "Público");
     
     }
     
