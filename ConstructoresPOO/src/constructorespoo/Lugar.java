@@ -16,4 +16,29 @@ public class Lugar {
     private String direccion;
     private int valoracion;
     
+    // Constructores de la clase Lugar
+    public Lugar(String nombre, String direccion, int valoracion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.valoracion = valoracion;
+    }
+
+    public Lugar(String direccion, int valoracion) {
+        this.direccion = direccion;
+        this.valoracion = valoracion;
+    }
+
+    public Lugar(String nombre, String direccion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+    }
+
+    public Lugar(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public Lugar(int valoracion) {
+        this.valoracion = valoracion;
+    }
+    
 }
