@@ -36,6 +36,30 @@ public class ConstructoresPOO {
         Hotel hotelE = new Hotel("Hotel Caracas S.A.", "5 estrellas");
         Hotel hotelF = new Hotel("The Windstone Hotel", "1 estrella");
     
+        /**
+         * OBJETOS DE LA CLASE HIJA HOSPITAL
+         *
+         */
+        // Método #1
+        Hospital miHospital = new Hospital("Hospital de Usme", "Kr 5a Este #111c-05 Sur", 3, '3', "Consulta externa", true);
+        Hospital hospitalLina = new Hospital("Hospital de la Misericordia", "Av. Caracas #1-07 Sur", 4, '2', "Pediatría hospitalaria", false);
+
+        // Método #2
+        Hospital hospitalA = new Hospital("Hospital de Muy Muy Lejano", 5, '2');
+        Hospital hospitalB = new Hospital("Fundación Hospitalaria Hermanos de la Fe", 3, '4');
+
+        // Método #3
+        Hospital hospitalC = new Hospital("Calle 9 #10-1232", "MiSalud Hospital", '2', "Cirugía maxilofacial");
+        Hospital hospitalD = new Hospital("Avenida 3ra #1-1", "Medplus Centro de Salud", '4', "Lobotomía");
+
+        // Método #4
+        Hospital hospitalE = new Hospital("Fundación Clínica del Dolor", '4', true);
+        Hospital hospitalF = new Hospital("Krakenhaus Compañía de Jesús", '3', false);
+
+        // Método #5
+        Hospital hospitalG = new Hospital("Nazukasokotsune Healthcare", true);
+        Hospital hospitalH = new Hospital("SENAgoga Hospital", false);
+
     
     }
     
