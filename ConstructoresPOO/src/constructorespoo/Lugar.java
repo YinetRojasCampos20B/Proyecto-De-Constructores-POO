@@ -10,4 +10,10 @@ package constructorespoo;
  */
 public class Lugar {
     
+    // Atributos de la clase Lugar
+    
+    private String nombre;
+    private String direccion;
+    private int valoracion;
+    
 }
